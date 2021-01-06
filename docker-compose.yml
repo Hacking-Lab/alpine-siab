@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  alpine-siab:
+    image: hackinglab/alpine-siab:3.2
+    environment:
+      - "HL_USER_USERNAME=hacker"
+      - "HL_USER_PASSWORD=compass"
+    ports:
+      - 4200:4200
